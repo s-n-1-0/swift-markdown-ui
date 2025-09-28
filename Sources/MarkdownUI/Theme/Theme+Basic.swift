@@ -21,7 +21,7 @@ extension Theme {
     }
     .heading1 { configuration in
       configuration.label
-        .markdownMargin(top: .rem(1.5), bottom: .rem(1))
+        .markdownMargin(top: 5, bottom: 5)
         .markdownTextStyle {
           FontWeight(.semibold)
           FontSize(.em(2))
@@ -29,15 +29,15 @@ extension Theme {
     }
     .heading2 { configuration in
       configuration.label
-        .markdownMargin(top: .rem(1.5), bottom: .rem(1))
+        .markdownMargin(top: 5, bottom: 5)
         .markdownTextStyle {
           FontWeight(.semibold)
-          FontSize(.em(1.5))
+            FontSize(.em(1.5))
         }
     }
     .heading3 { configuration in
       configuration.label
-        .markdownMargin(top: .rem(1.5), bottom: .rem(1))
+        .markdownMargin(top: 5, bottom: 5)
         .markdownTextStyle {
           FontWeight(.semibold)
           FontSize(.em(1.17))
@@ -45,7 +45,7 @@ extension Theme {
     }
     .heading4 { configuration in
       configuration.label
-        .markdownMargin(top: .rem(1.5), bottom: .rem(1))
+        .markdownMargin(top: 5, bottom: 5)
         .markdownTextStyle {
           FontWeight(.semibold)
           FontSize(.em(1))
@@ -53,7 +53,7 @@ extension Theme {
     }
     .heading5 { configuration in
       configuration.label
-        .markdownMargin(top: .rem(1.5), bottom: .rem(1))
+        .markdownMargin(top: 5, bottom: 5)
         .markdownTextStyle {
           FontWeight(.semibold)
           FontSize(.em(0.83))
@@ -61,7 +61,7 @@ extension Theme {
     }
     .heading6 { configuration in
       configuration.label
-        .markdownMargin(top: .rem(1.5), bottom: .rem(1))
+        .markdownMargin(top: 5, bottom: 5)
         .markdownTextStyle {
           FontWeight(.semibold)
           FontSize(.em(0.67))
@@ -71,7 +71,7 @@ extension Theme {
       configuration.label
         .fixedSize(horizontal: false, vertical: true)
         .relativeLineSpacing(.em(0.15))
-        .markdownMargin(top: .zero, bottom: .em(1))
+        .markdownMargin(top: .zero, bottom: 5)
     }
     .blockquote { configuration in
       configuration.label
